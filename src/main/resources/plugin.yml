@@ -1,0 +1,14 @@
+name: AssetPortal
+version: ${build.number}
+description: AssetPortal
+
+author: AssetGateway
+website: http://assetgateway.com/
+
+main: ${main.class}
+softdepend: [AssetConnect]
+
+commands:
+  portal:
+    description:
+    usage:
